@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'youtube';
+  tony="MyName"
+  getName(name:String){
+    alert(name)
+  }
 }
