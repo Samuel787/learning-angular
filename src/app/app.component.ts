@@ -11,4 +11,8 @@ export class AppComponent {
   getName(name:String){
     alert(name)
   }
+
+  myEvent(event){
+    console.log(event)
+  }
 }

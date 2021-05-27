@@ -1,2 +1,25 @@
 <h1>Call function in angular</h1>
-<button (click)="getName(tony)">Get my name</button>
+<label>Click Event: </label>
+<button (click)="myEvent('this is click event')">Click</button>
+<br/>
+<br/>
+<label>Key Up Event </label>
+<input type="text" #box (keyup)="myEvent(box.value)"/>
+<br/>
+<br/>
+<label>Key Down Event </label>
+<input type="text" #box2 (keydown)="myEvent(box2.value)"/>
+<br/>
+<br/>
+<label>Key Up Enter Event </label>
+<input type="text" #box3 (keyup.enter)="myEvent(box3.value)"/>
+<br/>
+<br/>
+<label>Blur Event </label>
+<input type="text" #box4 (blur)="myEvent(box4.value)"/>
+<br/>
+<br/>
+<h1 (mouseover)="myEvent('mouseover')" style="background-color: skyblue;">Mouse Over Event </h1>
+<br/>
+<br/>
+<h1 (mouseleave)="myEvent('mouseleave')" style="background-color: purple;">Mouse Leave Event</h1>
