@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
+  tut13_color = "golden"
   tut12_conditional = false
   tut12_conditional_string = "no"
   tut12_color = "blue"
