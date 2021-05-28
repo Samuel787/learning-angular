@@ -1,4 +1,26 @@
 <hr/>
+<h2>Tutorial 12: Condition statements in Angular</h2>
+<hr/>
+<h1>Conditionals in Angular</h1>
+<h1 *ngIf="tut12_conditional_string=='yes' then ifBlock else elseBlock">
+</h1>
+<ng-template #ifBlock>
+    <h1>if Block</h1>
+</ng-template>
+<ng-template #elseBlock>
+    <h1>else block</h1>
+</ng-template>
+<ng-template [ngIf]="tut12_color=='red'">
+    <h1 style="background-color: red;">red</h1>
+</ng-template>
+<ng-template [ngIf]="tut12_color=='green'">
+    <h1 style="background-color: green;">green</h1>
+</ng-template>
+<ng-template [ngIf]="tut12_color=='blue'">
+    <h1 style="background-color: blue;">blue</h1>
+</ng-template>
+
+<hr/>
 <h2>Tutorial 11: Property Binding</h2>
 <hr/>
 <!-- to set an element property to be a non-string value, we cannot use interpolation. We need to use property binding-->

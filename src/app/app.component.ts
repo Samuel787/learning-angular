@@ -7,6 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
+  tut12_conditional = false
+  tut12_conditional_string = "no"
+  tut12_color = "blue"
   tutorial_11_name = "James Bonda"
   disabledBox = true
   disabledBoxButton(){
