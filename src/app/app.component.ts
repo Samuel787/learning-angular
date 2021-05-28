@@ -6,6 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+
+  tutorial_11_name = "James Bonda"
+  disabledBox = true
+  disabledBoxButton(){
+    this.disabledBox = !this.disabledBox
+  }
+
   title = 'youtube';
   tony="MyName"
   getName(name:String){
@@ -21,4 +28,5 @@ export class AppComponent {
     this.tutorial_10_words = val;
     console.log(val)
   }
+
 }

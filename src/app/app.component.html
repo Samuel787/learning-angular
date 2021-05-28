@@ -1,4 +1,14 @@
 <hr/>
+<h2>Tutorial 11: Property Binding</h2>
+<hr/>
+<!-- to set an element property to be a non-string value, we cannot use interpolation. We need to use property binding-->
+<input text="text" [disabled]="disabledBox" [value]="tutorial_11_name"/> <!-- property binding -->
+<br/>
+<input text="text" disabled={{disabledBox}} value={{tutorial_11_name}}/> <!-- Interpolation -->
+<br/>
+<br/>
+<button (click)="disabledBoxButton()">Enable TextBox</button>
+<hr/>
 <h2>Tutorial 10: Get input box value</h2>
 <hr/>
 <input type="text" (keyup)="tutorial10GetVal($event.target.value)" />
@@ -7,6 +17,7 @@
 <input type="text" #tut10box/>
 <button (click)="tutorial10GetVal(tut10box.value)">Get Value</button>
 <h2>{{ tutorial_10_words }}</h2>
+
 <hr/>
 <h2>Tutorial 9: Events</h2>
 <hr/>
