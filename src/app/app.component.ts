@@ -6,7 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-
+  tut14_data = [
+    {
+      name: "Baboo",
+      age: 21
+    },
+    {
+      name: "Ramu",
+      age: 22
+    },
+    {
+      name: "Gooruu",
+      age: -22
+    }
+  ]
   tut13_color = "golden"
   tut12_conditional = false
   tut12_conditional_string = "no"
