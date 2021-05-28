@@ -6,6 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+
+  getValuesTut15(val){
+    console.log(val)
+  }
+  
   tut14_data = [
     {
       name: "Baboo",

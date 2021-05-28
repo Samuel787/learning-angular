@@ -1,4 +1,19 @@
 <hr/>
+<h2>Tutorial 15: Simple forms in Angular</h2>
+<hr/>
+<form #simpleForm="ngForm" (ngSubmit)="getValuesTut15(simpleForm.value)">
+    <input type="text" ngModel name="user" placeholder="enter username"/>
+    <br/><br/>
+    <input type="text" ngModel name="age" placeholder="enter age"/>
+    <br/><br/>
+    <input type="text" ngModel name="addr" placeholder="enter user address"/>
+    <br/><br/>
+    <input type="password" ngModel name="pwd" placeholder="enter password"/>
+    <br/><br/>
+    <button>Get User Values</button>
+</form>
+
+<hr/>
 <h2>Tutorial 14: Loop in Angular</h2>
 <hr/>
 <table border="1">
