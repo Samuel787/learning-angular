@@ -15,4 +15,10 @@ export class AppComponent {
   myEvent(event){
     console.log(event)
   }
+
+  tutorial_10_words = ""
+  tutorial10GetVal(val){
+    this.tutorial_10_words = val;
+    console.log(val)
+  }
 }

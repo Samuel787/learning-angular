@@ -1,3 +1,15 @@
+<hr/>
+<h2>Tutorial 10: Get input box value</h2>
+<hr/>
+<input type="text" (keyup)="tutorial10GetVal($event.target.value)" />
+<h2>{{ tutorial_10_words }}</h2>
+<br/>
+<input type="text" #tut10box/>
+<button (click)="tutorial10GetVal(tut10box.value)">Get Value</button>
+<h2>{{ tutorial_10_words }}</h2>
+<hr/>
+<h2>Tutorial 9: Events</h2>
+<hr/>
 <h1>Call function in angular</h1>
 <label>Click Event: </label>
 <button (click)="myEvent('this is click event')">Click</button>
