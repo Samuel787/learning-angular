@@ -13,7 +13,9 @@ import { Tut18Component } from './tut18/tut18.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
 import { Tut19Component } from './tut19/tut19.component';
-import {MatSliderModule} from '@angular/material/slider'
+import {MatSliderModule} from '@angular/material/slider';
+import { Tut20Component } from './tut20/tut20.component';
+import { UsersComponentComponent } from './users-component/users-component.component'
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import {MatSliderModule} from '@angular/material/slider'
     Tut16Component,
     Tut17Component,
     Tut18Component,
-    Tut19Component
+    Tut19Component,
+    Tut20Component,
+    UsersComponentComponent
   ],
   imports: [
     BrowserModule,
