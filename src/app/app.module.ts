@@ -15,7 +15,9 @@ import {MatButtonModule} from '@angular/material/button';
 import { Tut19Component } from './tut19/tut19.component';
 import {MatSliderModule} from '@angular/material/slider';
 import { Tut20Component } from './tut20/tut20.component';
-import { UsersComponentComponent } from './users-component/users-component.component'
+import { UsersComponentComponent } from './users-component/users-component.component';
+import { Tut21Component } from './tut21/tut21.component';
+import { User2ComponentComponent } from './user2-component/user2-component.component'
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { UsersComponentComponent } from './users-component/users-component.compo
     Tut18Component,
     Tut19Component,
     Tut20Component,
-    UsersComponentComponent
+    UsersComponentComponent,
+    Tut21Component,
+    User2ComponentComponent
   ],
   imports: [
     BrowserModule,
