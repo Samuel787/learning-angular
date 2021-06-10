@@ -23,7 +23,9 @@ import { ChildTut22Component } from './child-tut22/child-tut22.component';
 import { Tut23Component } from './tut23/tut23.component';
 import { Tut24UserComponent } from './tut24-user/tut24-user.component';
 import { Tut24AdminComponent } from './tut24-admin/tut24-admin.component';
-import { Tut24Component } from './tut24/tut24.component'
+import { Tut24Component } from './tut24/tut24.component';
+import { Tut25Component } from './tut25/tut25.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component'
 
 @NgModule({
   declarations: [
@@ -43,7 +45,9 @@ import { Tut24Component } from './tut24/tut24.component'
     Tut23Component,
     Tut24UserComponent,
     Tut24AdminComponent,
-    Tut24Component
+    Tut24Component,
+    Tut25Component,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
