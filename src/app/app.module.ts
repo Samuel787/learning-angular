@@ -17,7 +17,9 @@ import {MatSliderModule} from '@angular/material/slider';
 import { Tut20Component } from './tut20/tut20.component';
 import { UsersComponentComponent } from './users-component/users-component.component';
 import { Tut21Component } from './tut21/tut21.component';
-import { User2ComponentComponent } from './user2-component/user2-component.component'
+import { User2ComponentComponent } from './user2-component/user2-component.component';
+import { Tut22Component } from './tut22/tut22.component';
+import { ChildTut22Component } from './child-tut22/child-tut22.component'
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { User2ComponentComponent } from './user2-component/user2-component.compo
     Tut20Component,
     UsersComponentComponent,
     Tut21Component,
-    User2ComponentComponent
+    User2ComponentComponent,
+    Tut22Component,
+    ChildTut22Component
   ],
   imports: [
     BrowserModule,
