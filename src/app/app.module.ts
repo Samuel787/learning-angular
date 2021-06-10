@@ -20,7 +20,10 @@ import { Tut21Component } from './tut21/tut21.component';
 import { User2ComponentComponent } from './user2-component/user2-component.component';
 import { Tut22Component } from './tut22/tut22.component';
 import { ChildTut22Component } from './child-tut22/child-tut22.component';
-import { Tut23Component } from './tut23/tut23.component'
+import { Tut23Component } from './tut23/tut23.component';
+import { Tut24UserComponent } from './tut24-user/tut24-user.component';
+import { Tut24AdminComponent } from './tut24-admin/tut24-admin.component';
+import { Tut24Component } from './tut24/tut24.component'
 
 @NgModule({
   declarations: [
@@ -37,7 +40,10 @@ import { Tut23Component } from './tut23/tut23.component'
     User2ComponentComponent,
     Tut22Component,
     ChildTut22Component,
-    Tut23Component
+    Tut23Component,
+    Tut24UserComponent,
+    Tut24AdminComponent,
+    Tut24Component
   ],
   imports: [
     BrowserModule,
