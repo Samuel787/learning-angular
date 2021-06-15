@@ -25,7 +25,9 @@ import { Tut24UserComponent } from './tut24-user/tut24-user.component';
 import { Tut24AdminComponent } from './tut24-admin/tut24-admin.component';
 import { Tut24Component } from './tut24/tut24.component';
 import { Tut25Component } from './tut25/tut25.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component'
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { CustomStyleDirective } from './custom-style.directive';
+import { Tut26Component } from './tut26/tut26.component'
 
 @NgModule({
   declarations: [
@@ -47,7 +49,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     Tut24AdminComponent,
     Tut24Component,
     Tut25Component,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    CustomStyleDirective,
+    Tut26Component
   ],
   imports: [
     BrowserModule,
