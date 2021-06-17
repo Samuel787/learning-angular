@@ -27,7 +27,8 @@ import { Tut24Component } from './tut24/tut24.component';
 import { Tut25Component } from './tut25/tut25.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { CustomStyleDirective } from './custom-style.directive';
-import { Tut26Component } from './tut26/tut26.component'
+import { Tut26Component } from './tut26/tut26.component';
+import { Tut27Component } from './tut27/tut27.component'
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { Tut26Component } from './tut26/tut26.component'
     Tut25Component,
     PageNotFoundComponent,
     CustomStyleDirective,
-    Tut26Component
+    Tut26Component,
+    Tut27Component
   ],
   imports: [
     BrowserModule,
