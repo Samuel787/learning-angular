@@ -29,6 +29,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { CustomStyleDirective } from './custom-style.directive';
 import { Tut26Component } from './tut26/tut26.component';
 import { Tut27Component } from './tut27/tut27.component'
+import { HttpClientModule } from "@angular/common/http";
+import { Tut28Component } from './tut28/tut28.component'
 
 @NgModule({
   declarations: [
@@ -53,7 +55,8 @@ import { Tut27Component } from './tut27/tut27.component'
     PageNotFoundComponent,
     CustomStyleDirective,
     Tut26Component,
-    Tut27Component
+    Tut27Component,
+    Tut28Component
   ],
   imports: [
     BrowserModule,
@@ -62,7 +65,8 @@ import { Tut27Component } from './tut27/tut27.component'
     NgbModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatSliderModule
+    MatSliderModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
